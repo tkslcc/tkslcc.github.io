@@ -1,0 +1,56 @@
+div.circle
+{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	border-radius: 50%;
+	width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+div.X
+{
+	position: relative;
+	top: 20px;
+	left: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100px;
+}
+div.box
+{
+	position: absolute;
+	border: 5px solid maroon;
+	/*margin: 10px;
+	padding: 20px;
+	padding-top: 33px;*/
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	color: white;
+}
+div.left
+{
+	left: 10px;
+}
+div.right
+{
+	left: 320px;
+}
+div.center
+{
+	left: 165px;
+}
+div.top
+{
+	top: 10px;
+}
+div.middle
+{
+	top: 165px;
+}
+div.bottom
+{
+	top: 320px;
+}
+
