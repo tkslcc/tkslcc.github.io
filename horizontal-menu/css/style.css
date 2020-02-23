@@ -1,10 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 *
 {
 	padding: 0;
 	margin: 0;
 }
+ul.menu
+{
+	background-color: yellow;
+	text-align: right;
+}
 ul.menu li
 {
 	display: inline-block;
-	border: 1px solid blue;
+}
+ul.menu li a:hover
+{
+	color: white;
+	background-color: black;
+}
+ul.menu li a
+{
+	text-decoration:none;
+	font-family: 'Odibee Sans';
+	color: black;
+	display: inline-block;
+	padding: 20px;
 }
