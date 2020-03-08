@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>Place an Order</h1>
-		<ul>
+		<ul class="menu">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="contact.html">Contact</a></li>
 			<li><a href="order.html">Order</a></li>
@@ -21,7 +21,7 @@
 		
 		<img src="/pizza-2/img/pizza.png" alt="closed" height="250" width="250">
 		<form action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php" method="post">
-			<label>Size</label><br>
+			<label class="field">Size</label><br>
 			<input type="radio" id="X-Small" name="size" value="X-Small">
 			<label for="male">X-Small</label>
 			<input type="radio" id="small" name="size" value="small">
@@ -42,7 +42,7 @@
 			<label for="other">XXX-Large</label><br>
 			
 			<br>
-			<label>Toppings</label><br>
+			<label class="field">Toppings</label><br>
 			<input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
 			<label for="topping1"> Pepperoni</label>
 			<input type="checkbox" id="topping2" name="toppings[]" value="Sausage">
@@ -59,7 +59,6 @@
 			<label for="topping7"> Onion</label>
 			<input type="checkbox" id="topping8" name="toppings[]" value="Chicken">
 			<label for="topping8"> Chicken</label><br> 
-			
 			<input type="checkbox" id="topping9" name="toppings[]" value="Spinach">
 			<label for="topping9"> Spinach</label>
 			<input type="checkbox" id="topping10" name="toppings[]" value="Bell Peppers">
@@ -92,7 +91,7 @@
 			<label for="topping23"> Mango</label><br>
 
 			<br>
-			<label>Crust</label><br>
+			<label class="field">Crust</label><br>
 			<select id="crust" name="crust">
 				  <option value="thick">Thick</option>
 				  <option value="thin">Thin</option>
@@ -106,22 +105,20 @@
 			</select> <br>
 			
 			<br>
-			<label>Name</label><br>
+			<label class="field">Name</label><br>
 			<input name="first" type="text" placeholder="First Name"><br>
 			<input name="last" type="text" placeholder="Last Name"><br>
-			
-			
-			<label>Street</label><br>
+			<label class="field">Street</label><br>
 			<input name="add1" type="text" placeholder="Address 1" Required><br>
 			<input name="add2" type="text" placeholder="Address 2"><br>
-			<label>City</label><br>
+			<label class="field">City</label><br>
 			<input name="city" type="text" placeholder="City" Required><br>
-			<label>State</label><br>
+			<label class="field">State</label><br>
 			<input name="state" type="text" placeholder="State" Required><br>
-			<label>Zip Code</label><br>
+			<label class="field">Zip Code</label><br>
 			<input name="zip" type="text" placeholder="Zip Code" Required><br>
 
-			<label>Country</label><br>
+			<label class="field">Country</label><br>
 			<select>
 				<option value="AL">Alabama</option>
 				<option value="AK">Alaska</option>
@@ -174,14 +171,14 @@
 				<option value="WV">West Virginia</option>
 				<option value="WI">Wisconsin</option>
 				<option value="WY">Wyoming</option>
-			</select>	
-			<label>Phone Number</label><br>
+			</select><br>
+			<label class="field">Phone Number</label><br>
 			<input name="phone" type="text" placeholder="Phone Number" Required><br>
-			<label>Email Address</label><br>
+			<label class="field">Email Address</label><br>
 			<input name="email" type="text" placeholder="Email" Required><br>
 			
 			<br>
-			<label>Comments</label><br>
+			<label class="field">Comments</label><br>
 			<textarea name="comments" placeholder="What do you want to tell us?"></textarea><br>
 			
 			<br>
