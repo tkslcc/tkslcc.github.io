@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+*
+{
+	padding: 0;
+	margin: 0;
+}
+ul.menu
+{
+	background-color: yellow;
+	text-align: center;
+}
+ul.menu li
+{
+	display: inline-block;
+}
+ul.menu li a:hover
+{
+	color: white;
+	background-color: black;
+}
+ul.menu li a
+{
+	font-size: 25px;
+	text-decoration:none;
+	font-family: 'Odibee Sans';
+	color: black;
+	display: inline-block;
+	padding: 20px;
+}
+h1
+{
+	background-color: DarkOrange;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+body
+{
+	background-color: Moccasin;
+}
+p
+{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+form input
+{
+	margin: 10px;
+}
+.field
+{
+	font-weight: bold;
+}
+select
+{
+	margin: 10px;
+}
