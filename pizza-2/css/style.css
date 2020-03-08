@@ -56,3 +56,11 @@ select
 {
 	margin: 10px;
 }
+textarea
+{
+	margin: 10px;
+}
+.button
+{
+	padding: 10px 30px;
+}
