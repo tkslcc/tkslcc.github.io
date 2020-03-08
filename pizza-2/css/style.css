@@ -63,4 +63,14 @@ textarea
 .button
 {
 	padding: 10px 30px;
+	margin: 5px;
+}
+.topping
+{
+	font-style: italic;
+}
+
+.sizes
+{
+	font-style: italic;
 }
