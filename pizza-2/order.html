@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
-	<head><title>Order</title></head>
+	<head>
+	<title>Order</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
 	<body>
 		<h1>Order</h1>
 		<ul>
@@ -9,5 +12,173 @@
 			<li><a href="order.html">Order</a></li>
 			<li><a href="about.html">About</a></li>
 		</ul>
+		<form action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php" method="post">
+			<label>Size</label><br>
+			<input type="radio" id="X-Small" name="size" value="X-Small">
+			<label for="male">X-Small</label>
+			<input type="radio" id="small" name="size" value="small">
+			<label for="male">Small</label>
+			<input type="radio" id="smedium" name="size" value="smedium">
+			<label for="male">Smedium</label>
+			<input type="radio" id="medium" name="size" value="medium">
+			<label for="female">Medium</label>
+			<input type="radio" id="Mlarge" name="size" value="Mlarge">
+			<label for="male">Mlarge</label>
+			<input type="radio" id="Large" name="size" value="Large">
+			<label for="other">Large</label> 
+			<input type="radio" id="X-Large" name="size" value="X-Large">
+			<label for="other">X-Large</label>
+			<input type="radio" id="XX-Large" name="size" value="XX-Large">
+			<label for="other">XX-Large</label>
+			<input type="radio" id="XXX-Large" name="size" value="XXX-Large">
+			<label for="other">XXX-Large</label><br>
+			
+			<br>
+			<label>Toppings</label><br>
+			<input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+			<label for="topping1"> Pepperoni</label>
+			<input type="checkbox" id="topping2" name="toppings[]" value="Sausage">
+			<label for="topping2"> Sausage</label>
+			<input type="checkbox" id="topping3" name="toppings[]" value="Mushrooms">
+			<label for="topping3"> Mushrooms</label>
+			<input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+			<label for="topping4"> Olives</label>
+			<input type="checkbox" id="topping5" name="toppings[]" value="Ham">
+			<label for="topping5"> Ham</label>
+			<input type="checkbox" id="topping6" name="toppings[]" value="Pineapple">
+			<label for="topping6"> Pineapple</label>
+			<input type="checkbox" id="topping7" name="toppings[]" value="Onion">
+			<label for="topping7"> Onion</label>
+			<input type="checkbox" id="topping8" name="toppings[]" value="Chicken">
+			<label for="topping8"> Chicken</label><br> 
+			
+			<input type="checkbox" id="topping9" name="toppings[]" value="Spinach">
+			<label for="topping9"> Spinach</label>
+			<input type="checkbox" id="topping10" name="toppings[]" value="Bell Peppers">
+			<label for="topping10"> Bell Pepper</label>
+			<input type="checkbox" id="topping11" name="toppings[]" value="Tomato">
+			<label for="topping11"> Tomato</label>
+			<input type="checkbox" id="topping12" name="toppings[]" value="Garlic">
+			<label for="topping12"> Garlic</label>
+			<input type="checkbox" id="topping13" name="toppings[]" value="Beef">
+			<label for="topping13"> Beef</label>
+			<input type="checkbox" id="topping14" name="toppings[]" value="Salami">
+			<label for="topping14"> Salami</label>
+			<input type="checkbox" id="topping15" name="toppings[]" value="Anchovies">
+			<label for="topping15"> Anchovies</label>
+			<input type="checkbox" id="topping16" name="toppings[]" value="Ground Beef">
+			<label for="topping16"> Ground Beef</label><br>
+			<input type="checkbox" id="topping17" name="toppings[]" value="Pesto">
+			<label for="topping17"> Pesto</label>
+			<input type="checkbox" id="topping18" name="toppings[]" value="Broccoli">
+			<label for="topping18"> Broccoli</label>
+			<input type="checkbox" id="topping19" name="toppings[]" value="Oregano">
+			<label for="topping19"> Oregano</label>
+			<input type="checkbox" id="topping20" name="toppings[]" value="Feta">
+			<label for="topping20"> Feta</label>
+			<input type="checkbox" id="topping21" name="toppings[]" value="Buffalo">
+			<label for="topping21"> Buffalo</label>
+			<input type="checkbox" id="topping22" name="toppings[]" value="Alligator">
+			<label for="topping22"> Alligator</label>
+			<input type="checkbox" id="topping23" name="toppings[]" value="Mango">
+			<label for="topping23"> Mango</label><br>
+
+			<br>
+			<label>Crust</label><br>
+			<select id="crust" name="crust">
+				  <option value="thick">Thick</option>
+				  <option value="thin">Thin</option>
+				  <option value="pan">Pan</option>
+			      <option value="pot">Pot</option>
+				  <option value="deep-dish">Deep-Dish</option>
+				  <option value="Super-thick">Super Thick</option>
+				  <option value="Super Thin">Super Thin</option>
+				  <option value="Extra-Super-Thin">Extra Super Thin</option>
+				  <option value="none">None</option>
+			</select> <br>
+			
+			<br>
+			<label>Name</label><br>
+			<input name="first" type="text" placeholder="First Name"><br>
+			<input name="last" type="text" placeholder="Last Name"><br>
+			
+			
+			<label>Street</label><br>
+			<input name="add1" type="text" placeholder="Address 1" Required><br>
+			<input name="add2" type="text" placeholder="Address 2"><br>
+			<label>City</label><br>
+			<input name="city" type="text" placeholder="City" Required><br>
+			<label>State</label><br>
+			<input name="state" type="text" placeholder="State" Required><br>
+			<label>Zip Code</label><br>
+			<input name="zip" type="text" placeholder="Zip Code" Required><br>
+
+			<label>Country</label><br>
+			<select>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District Of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+			</select>	
+			<label>Phone Number</label><br>
+			<input name="phone" type="text" placeholder="Phone Number" Required><br>
+			<label>Email Address</label><br>
+			<input name="email" type="text" placeholder="Email" Required><br>
+			
+			<br>
+			<label>Comments</label><br>
+			<textarea name="comments" placeholder="What do you want to tell us?"></textarea><br>
+			
+			<br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Clear">
+		</form>
 	</body>
 </html>
