@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1
 {
 	color: Blue;
@@ -14,21 +13,4 @@ p
 body
 {
 	background-color: Black;
-=======
-h1
-{
-	color: Blue;
-	background-color: Yellow;
-	padding: 2px;
-}
-p
-{
-	color: red;
-	text-align: center;
-	font-size: 32px;
-}
-body
-{
-	background-color: Black;
->>>>>>> 2582851a0fb94a7840fb430f0767ce97fcc07c7b
 }
