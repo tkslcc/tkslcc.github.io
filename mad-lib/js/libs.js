@@ -18,4 +18,3 @@ else if(game == 2){
 	var adj2 = prompt("Enter an adjective: ");
 	var madlib1 = "Once upon a time, a " + adj1 + " cat named Henry went to " + verb1 + ". Upon doing so, he found a " + adj2 + " " + noun2 + ". Afterwards, he decided to " + verb2 + " with his " + noun1 + ".";
 }
-	
