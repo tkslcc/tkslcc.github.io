@@ -1,0 +1,18 @@
+h1
+{
+	color: Blue;
+	background-color: Yellow;
+	padding: 2px;
+}
+p
+{
+	color: red;
+	text-align: center;
+	font-size: 32px;
+}
+body
+{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}
