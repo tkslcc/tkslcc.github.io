@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-<<<<<<< HEAD
 		<title>Guessing Game!</title>
-=======
 		<title>Lottery!</title>
->>>>>>> aab3e847896e75e024709cd2479e434f63d70537
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/script.js"></script>
 	</head>
 	<body>
-		<h1>Lottery Outcome:</h1>
-		<div id="divMsg"></div>
-		<script>
-			document.getElementById("divMsg").innerHTML = lottoPicks;
-		</script>
+		<img id="pic" src="img/start.jpg">
+		<form>
+		  <label for="Guess">Your guess:</label><br>
+		  <input type="text" id="guess"><br>
+		</form>
+		<button id="button" onclick="switchImage()">CLICK to guess!</button>
+		<br>
+		<button id="button1" onclick="restart()">Play again?</button>
+		<p id="guesscount"></p>
+		<p id="outcome"></p>
+		<p id="guesses"></p>
 	</body>
