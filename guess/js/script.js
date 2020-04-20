@@ -47,4 +47,3 @@ var guessedNums = [];
 var num = getRandomInt();
 var guesses = 0;
 console.log(num);
-alert(num);
