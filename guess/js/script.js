@@ -1,8 +1,11 @@
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+function getRandomInt() {
+  return Math.floor(Math.random() * Math.floor(99));
 }
 
+var num = getRandomInt();
 
+
+/**
 var nums = prompt("How many numbers do you want to pick? (Must be less than 10)");
 
 if (nums >= 10)
@@ -24,3 +27,4 @@ for (var i = 0; i < lotNums.length; i++){
 		lottoPicks = lottoPicks + lotNums[i] + "-";
 	}
 }
+**/
