@@ -5,6 +5,24 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/script.js"></script>
 	</head>
-	<body>
+	<body onload="startGame()">
+		<h2 id="game-status"> Tic-Tac-Toe</h2>
+		<div id="game-board">
+			<div id="row1">
+				<div onclick="playGame(this)"></div> 
+				<div onclick="playGame(this)"></div> 
+				<div onclick="playGame(this)"></div> 
+			</div>
+			<div id="row2">
+				<div onclick="playGame(this)"></div> 
+				<div onclick="playGame(this)"></div> 
+				<div onclick="playGame(this)"></div> 
+			</div>
+			<div id="row3">
+				<div onclick="playGame(this)"></div>
+				<div onclick="playGame(this)"></div> 
+				<div onclick="playGame(this)"></div> 
+			</div>
+		</div>
 	</body>
-
+</html>
