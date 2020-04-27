@@ -1,21 +1,44 @@
-#button1
+*
 {
-	display: none;
-}
-h1
-{
-	color: Blue;
-	background-color: Yellow;
-	padding: 2px;
-}
-p
-{
-	color: red;
-	text-align: center;
-	font-size: 32px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
 }
 body
 {
-	background-color: black;
-	color: white;
-	font-size: 24px;
+
+}
+body div:first-child
+{
+
+}
+h2#game-status
+{
+	font-size: 45px;
+	font-family: Verdana;
+	text-align: center;
+	margin-bottom: 20px;
+}
+div#game-board
+{
+	overflow: hidden;
+	margin: 20px auto;
+	width: 475px;
+}
+div[id^="row"] {clear: both;}
+div[id^="row"] div
+{
+	float: left;
+	border: 2px solid blue;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 125px;
+}
+
+div#row1 div {border-top: none;}
+div#row3 div{border-bottom: none;}
+div[id^="row"] div:first-child {border-left: none;}
+div[id^="row"] div:last-child {border-right: none;}
