@@ -1,0 +1,23 @@
+body
+{
+	background-color: black;
+}
+p
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#rock
+{
+	font-size: 64px;
+	font-style: oblique;
+	color: white;
+}
+.text-center
+{
+	color: white;
+}
+.socialm
+{
+	padding: 20px;
+	margin: 20px;
+}
