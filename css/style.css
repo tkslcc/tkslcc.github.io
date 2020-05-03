@@ -1,0 +1,70 @@
+#mainbody
+{
+	background-color: moccasin;
+}
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: tan;
+  padding: 10px;
+}
+.grid-item 
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#assignments
+{
+	text-align: center;
+	display: block;
+	font-size: 32 px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+#reflectionQuotes
+{
+	background-color: white;
+	text-align: center;
+	display: block;
+	font-size: 32 px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-weight: bold;
+	padding: 5px;
+}
+#quote
+{
+	font-size: 40px;
+}
+.nav-tabs li a {
+	color: black;
+}
+.navbar {
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 0;
+	background-color: #2d2d30;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+	color: black;
+}
+.navbar-nav li a:hover {
+	color: black;
+}
+.navbar-nav li.active a {
+	color: black;
+	background-color: black;
+}
